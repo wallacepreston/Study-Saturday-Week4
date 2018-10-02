@@ -17,10 +17,10 @@ export default class NewStudentForm extends Component {
       [event.target.name]: event.target.value,
     });
   }
+
   handleSubmit(event) {
     event.preventDefault();
     this.props.addStudent(this.state);
-
     this.setState({
       firstName: '',
       lastName: '',
