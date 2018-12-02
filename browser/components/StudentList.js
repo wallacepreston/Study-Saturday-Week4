@@ -1,7 +1,7 @@
 import React from 'react';
 
 const StudentList = (props) => {
-    console.log("p", props)
+    console.log("StudentList props: ", props)
     return (
         <tbody>
         {
